@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Victoria Chan Portfolio</h1>
+    <p>Recent Graduate | Software Developer</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Brief intro about your background, experience, or goals.</p>
+    </br>
+    <p>Programming languages I have experience with, listed from highest proficiency to lowest:</p>
+    <ol>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C/C++</li>
+        <li>HTML, CSS, JavaScript</li>
+    </ol>
+    <p>Tools and platforms:</p>
+    <ul>
+        <li>Git (GitHub and GitLab)</li>
+        <li>SQL</li>
+        <li>Firebase Authentication</li>
+        <li>React</li>
+        <li>Expo</li>
+        <li>Flask API</li>
+        <li>AWS</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Serverless Portfolio Website</h3>
+      <p>Static portfolio built with HTML, CSS, JavaScript and deployed on AWS S3 and CloudFront.</p>
+    </div>
+    <!-- Add more project cards here -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="form-status"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Victoria Chan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
