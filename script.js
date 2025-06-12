@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     status.textContent = "Sending...";
 
     try {
-      const response = await fetch('https://7nsjeoo2i0.execute-api.eu-north-1.amazonaws.com/contact', {
+      const response = await fetch('https://7nsjeoo2i0.execute-api.eu-north-1.amazonaws.com/prod/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, message }),
