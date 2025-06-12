@@ -26,14 +26,14 @@ document.addEventListener('DOMContentLoaded', () => {
       const result = await response.json();
 
       if (response.ok) {
-        status.textContent = result.message || "Message sent successfully!";
+        status.textContent = result.message || "Message sent!";
         form.reset();
       } else {
         status.textContent = result.message || "Something went wrong. Please try again.";
       }
     } catch (err) {
       console.error(err);
-      status.textContent = "There was an error sending your message.";
+      status.textContent = "Error sending your message.";
     }
   });
 });
